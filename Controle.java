@@ -1,19 +1,23 @@
-public static tableless{
+import java.util.Scanner;
+public class Controle{
     public static void main(String[]args){
-        int valor = 0;
+        int valor ;
+        Scanner leitura=new Scanner(System.in);
+        System.out.println("digite um numero");
+       valor=leitura.nextInt();
         switch (valor) {
             case 1:
-                system.out.println("valor = 1");
+                System.out.println("valor = 1");
                 break;
             case 2:
-                system.out.println("valor = 2");
+                System.out.println("valor = 2");
                 break;
             case 3:
-                system.out.println("valor = 3");
+                System.out.println("valor = 3");
                 break;
         
             default:
-            System.out.prinln("Nenhum dos 3 valores")
+            System.out.println("Nenhum dos 3 valores");
                 
         }
     }
